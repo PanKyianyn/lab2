@@ -1,12 +1,11 @@
 from flask import Flask, request
-from datetime import date
+# Import datetime class from datetime module
+from datetime import datetime
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-     # Import datetime class from datetime module
-    from datetime import datetime
  
     dayofweek=""
     # returns current date and time
