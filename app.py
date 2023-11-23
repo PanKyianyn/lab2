@@ -18,7 +18,7 @@ def hello_world():
     if (numdayofweek == 5): dayofweek="Saturday"
     if (numdayofweek == 6): dayofweek="Sunday"
     #print("**********")
-    now = datetime.now().strftime("Today:"+"/n"+dayofweek+"/n"+"%d/%m/%Y"+"/n"+"Time:"+"/n"+"%H:%M:%S")
+    now = datetime.now().strftime("Today:  "+""+dayofweek+"  "+"%d/%m/%Y"+""+"Time:  "+""+"%H:%M:%S")
     #print(now)
     #print("**********")
 
